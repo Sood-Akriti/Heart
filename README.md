@@ -29,4 +29,5 @@ Behavioral</li>
 <h3>Predict variable (desired target)</h3>
 <li>10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)</li>
 
-<a href="https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression"><h3> Download dataset</h3></a>
+Dataset link
+"https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression" 
