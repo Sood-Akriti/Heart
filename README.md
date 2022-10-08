@@ -26,8 +26,8 @@ Behavioral</li>
 <li> BMI: Body Mass Index (Continuous)</li>
 <li> Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)</li>
 <li> Glucose: glucose level (Continuous)</li>
-<h3>Predict variable (desired target)</h3>
+### Predict variable (desired target)
 <li>10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)</li>
 
-Dataset link
+### Dataset link
 "https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression" 
