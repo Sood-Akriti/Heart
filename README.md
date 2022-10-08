@@ -14,11 +14,15 @@ Each attribute is a potential risk factor. There are both demographic, behaviora
 Behavioral</li>
 <li>Current Smoker: whether or not the patient is a current smoker (Nominal)</li>
 <li> Cigs Per Day: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarettes, even half a cigarette.)</li>
+
+
 ### Medical( history)
 <li> BP Meds: whether or not the patient was on blood pressure medication (Nominal)</li>
 <li> Prevalent Stroke: whether or not the patient had previously had a stroke (Nominal)</li>
 <li> Prevalent Hyp: whether or not the patient was hypertensive (Nominal)</li>
 <li> Diabetes: whether or not the patient had diabetes (Nominal)</li>
+
+
 ### Medical(current)
 <li> Tot Chol: total cholesterol level (Continuous)</li>
 <li> Sys BP: systolic blood pressure (Continuous)</li>
@@ -26,6 +30,8 @@ Behavioral</li>
 <li> BMI: Body Mass Index (Continuous)</li>
 <li> Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)</li>
 <li> Glucose: glucose level (Continuous)</li>
+
+
 ### Predict variable (desired target)
 <li>10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)</li>
 
