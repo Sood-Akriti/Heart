@@ -1,0 +1,34 @@
+.flex-parent{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.space{
+    width: 1000px;
+    height:auto;
+    margin: auto;
+    display: inline-block;
+}
+button.margin-right {
+    margin-right: 5px;
+    position: absolute;
+    top:50%;
+    background-color:gray;
+    color: blue;
+}
+button.margin-right:hover {
+      background-color:red;
+      transition: 0.7s;
+  }
+.margin {
+    margin-right: 5px;
+    position: absolute;
+    top:50%;
+    background-color:gray;
+    color: blue;
+}
+.margin:hover {
+      background-color:red;
+      transition: 0.7s;
+  }

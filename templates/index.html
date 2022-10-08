@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+body {
+  background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2020-10/02/full/1601658256-1914.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<body>
+<h1 >HEART DISEASE PREDICTION</h1>
+<h2> Please fill the form </h2>
+<h3> Please go through about_dataset before filling the form</h3>
+<a href="{{ url_for('about')}}"> About </a>
+<div>
+<form action="/result" method="POST">
+<h4> Demographic </h4>
+<label for="male">male</label>
+<select id="male" name="male">
+<option value="0">Yes</option>
+<option value="1">No</option>
+</select>
+<br>
+<br>
+<label for="age">age</label>
+<input type="number" id="age" name="age" required>
+<br>
+<br>
+<label for="education">education</label>
+<select id="education" name="education">
+<option value="1">High School</option>
+<option value="2">Graduate</option>
+<option value="3">Post-Graduate/MBA</option>
+<option value="4">Doctrate</option>
+</select>
+<br>
+<br>
+<label for="smoker">currentSmoker</label>
+<select id="smoker" name="smoker">
+<option value="0">Yes</option>
+<option value="1">No</option>
+</select>
+<br>
+<br>
+<label for="cig">cigsPerDay</label>
+<input type="number" id="cigs" name="cigs" required>
+<br>
+<br>
+<h4> Medical History </h4>
+<label for="meds">BPMeds</label>
+<select id="meds" name="meds">
+<option value="0">Yes</option>
+<option value="1">No</option>
+</select>
+<br>
+<br>
+<label for="Stroke">prevalentStroke</label>
+<select id="Stroke" name="Stroke">
+<option value="0">Yes</option>
+<option value="1">No</option>
+</select>
+<br>
+<br>
+<label for="Hyp">prevalentHyp</label>
+<select id="Hyp" name="Hyp">
+<option value="0">Yes</option>
+<option value="1">No</option>
+</select>
+<br>
+<br>
+<label for="diabetes">diabetes</label>
+<select id="diabetes" name="diabetes">
+<option value="0">Yes</option>
+<option value="1">No</option>
+</select>
+<br>
+<br>
+<h4>Medical Current</h4>
+<label for="chol">totChol</label>
+<input type="number" id="chol" name="chol" required>
+<br>
+<br>
+<label for="sys">sysBP</label>
+<input type="number" id="sys" name="sys" required>
+<a href ="https://www.webmd.com/hypertension-high-blood-pressure/guide/diastolic-and-systolic-blood-pressure-know-your-numbers"> Having confusion what it is? Click here </a>
+<br>
+<br>
+<label for="dia">diaBP</label>
+<input type="number" id="dia" name="dia" required>
+<br>
+<br>
+<label for="BMI">BMI</label>
+<input type="number" id="BMI" name="BMI" required>
+<a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm"> Calculate BMI Here!!!</a>
+<br>
+<br>
+<label for="heart-rate">heartrate</label>
+<input type="number" id="heart-rate" name="heart-rate" required>
+<br>
+<br>
+<label for="glucose">glucose</label>
+<input type="number" id="glucose" name="glucose" required>
+<br>
+<br>
+<button type="Submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
